@@ -8,7 +8,7 @@ int main(){
      *p = 10;
      delete p;
      *p2 = 100;
-     cout << *p2; // Dong code loi
+     cout << *p2; // Dong code gay loi
      delete p2;
 //      Giải phóng bộ nhớ quá sớm, Giải phóng p làm cho p2
 //      trở thành con trỏ vào vùng nhớ không còn hiệu lực
